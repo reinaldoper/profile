@@ -34,7 +34,7 @@ const Section = () => {
                 <Link to='/angular' className={`nav-link rounded-5 ${locals === '/angular'? 'active': ''}`} id="contact-tab2" data-bs-toggle="tab" type="button" role="tab">Angular</Link>
               </li>
               <li className="nav-item" role="presentation">
-                <Link to='/movie' className={`nav-link rounded-5 ${locals === '/movie'? 'active': ''}`} id="contact-tab2" data-bs-toggle="tab" type="button" role="tab">Movies</Link>
+                <Link to='/movie' className={`nav-link rounded-5 ${locals === '/movie'? 'active': ''}`} id="contact-tab2" data-bs-toggle="tab" type="button" role="tab">Videos</Link>
               </li>
             </ul>
           </div>

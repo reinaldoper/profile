@@ -18,7 +18,13 @@ function App() {
     return year
   }
 
-  const projects = data.map(proj => (
+  const sorted = data.sort((a, b) => {
+    if(a.title > b.title){
+      return -1
+    }
+  })
+
+  const projects = sorted.map(proj => (
     <div className="col" key={proj.id}>
       <div className="card shadow-sm">
         <img src={proj.image} className="bd-placeholder-img card-img-top" style={{ width: "100%", height: "225" }} />
