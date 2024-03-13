@@ -37,7 +37,7 @@ const data = [
     id: 2,
     title: 'Trybe Tunes',
     image: musicas,
-    link: 'https://github.com/reinaldoper?tab=repositories'
+    link: 'https://trybe-tunes.web.app/'
   },
   {
     id: 3,
