@@ -1,7 +1,12 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import '../App.css';
 
 const Section = () => {
+
+  const location = useLocation()
+
+  const locals = location.pathname
+  
   const estilo = {
     "--bs-nav-link-color": "rgba(255, 255, 255, .75)",
     "--bs-nav-link-hover-color": "#fff",
@@ -20,16 +25,16 @@ const Section = () => {
           <div className="p-4 border rounded-3 mb-4">
             <ul className="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style={estilo}>
               <li className="nav-item" role="presentation">
-                <Link to='/' className={`nav-link rounded-5 active`} id="home-tab2" data-bs-toggle="tab" type="button" role="tab">Home</Link>
+                <Link to='/' className={`nav-link rounded-5 ${locals === '/'? 'active': ''}`} id="home-tab2" data-bs-toggle="tab" type="button" role="tab">React</Link>
               </li>
               <li className="nav-item" role="presentation">
-                <Link to='/tech' className={`nav-link rounded-5 active`} id="profile-tab2" data-bs-toggle="tab" type="button" role="tab">Tech</Link>
+                <Link to='/tech' className={`nav-link rounded-5 ${locals === '/tech'? 'active': ''}`} id="profile-tab2" data-bs-toggle="tab" type="button" role="tab">Tech</Link>
               </li>
               <li className="nav-item" role="presentation">
-                <Link to='/angular' className={`nav-link rounded-5 active`} id="contact-tab2" data-bs-toggle="tab" type="button" role="tab">Angular</Link>
+                <Link to='/angular' className={`nav-link rounded-5 ${locals === '/angular'? 'active': ''}`} id="contact-tab2" data-bs-toggle="tab" type="button" role="tab">Angular</Link>
               </li>
               <li className="nav-item" role="presentation">
-                <Link to='/movie' className={`nav-link rounded-5 active`} id="contact-tab2" data-bs-toggle="tab" type="button" role="tab">Movies</Link>
+                <Link to='/movie' className={`nav-link rounded-5 ${locals === '/movie'? 'active': ''}`} id="contact-tab2" data-bs-toggle="tab" type="button" role="tab">Movies</Link>
               </li>
             </ul>
           </div>

@@ -106,6 +106,12 @@ const tecnologias = [
     titulo: 'C#',
     descricao: '.NET core',
     src: 'https://cdn-icons-png.flaticon.com/128/6132/6132221.png',
+  },
+  {
+    id: '20',
+    titulo: 'Ruby',
+    descricao: 'Ruby on rails',
+    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg'
   }
 ]
 
