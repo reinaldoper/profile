@@ -25,6 +25,7 @@ import memory from '../images/memory.png';
 import delivery from '../images/delivery.png';
 import school from '../images/school.png';
 import movies from '../images/movies.png';
+import dev from '../images/dev.png';
 
 const data = [
   {
@@ -188,6 +189,12 @@ const data = [
     title: 'Movies TMDB',
     image: movies,
     link: 'https://movies-project-gamma.vercel.app/'
+  },
+  {
+    id: 28,
+    title: 'Dev prática',
+    image: dev,
+    link: 'https://dev-na-pratica-01-ten.vercel.app/'
   }
 ]
 
