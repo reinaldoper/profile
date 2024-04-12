@@ -18,11 +18,17 @@ function App() {
     return year
   }
 
-  const sorted = data.sort((a, b) => {
-    if(a.title > b.title){
-      return -1
+  const sorted = [...data].sort((a, b) => {
+    if(a.title < b.title){
+      return -1;
     }
-  })
+    if(a.title > b.title){
+      return 1;
+    }
+    return 0;
+});
+
+
 
   const projects = sorted.map(proj => (
     <div className="col" key={proj.id}>

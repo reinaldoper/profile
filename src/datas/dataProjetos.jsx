@@ -126,31 +126,31 @@ const data = [
   },
   {
     id: 17,
-    title: 'usuario',
+    title: 'Usuario',
     image: usuario,
     link: 'https://fluxo-phi.vercel.app/'
   },
   {
     id: 18,
-    title: 'created',
+    title: 'Created',
     image: create,
     link: 'https://fluxo-phi.vercel.app/'
   },
   {
     id: 19,
-    title: 'transaction',
+    title: 'Transaction',
     image: transaction,
     link: 'https://fluxo-phi.vercel.app/'
   },
   {
     id: 20,
-    title: 'cashback',
+    title: 'Cashback',
     image: cashback,
     link: 'https://front-conta.vercel.app/',
   },
   {
     id: 21,
-    title: 'blog',
+    title: 'Blog',
     image: blog,
     link: 'https://front-blog-post.vercel.app/'
   },
