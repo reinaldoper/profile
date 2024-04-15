@@ -1,5 +1,4 @@
 import Svg from "../components/Svg"
-import Header from "../components/Header"
 import Section from "../components/Section"
 import Footer from "../components/Footer"
 import data from "../datas/angular"
@@ -35,7 +34,7 @@ const AngularProjects = () => {
   return (
     <>
       <Svg />
-      <Header />
+      
       <main data-bs-theme="dark">
 
         <Section />

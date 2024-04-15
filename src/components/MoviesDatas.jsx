@@ -1,6 +1,5 @@
 import videos from "../datas/videos"
 import Svg from "../components/Svg"
-import Header from "../components/Header"
 import Section from "../components/Section"
 import Footer from "../components/Footer"
 
@@ -35,7 +34,7 @@ const MoviesDatas = () => {
   return (
     <>
       <Svg />
-      <Header />
+      
       <main data-bs-theme="dark">
 
         <Section />

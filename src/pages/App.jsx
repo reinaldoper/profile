@@ -3,7 +3,6 @@ import '../App.css'
 import data from '../datas/dataProjetos'
 import Footer from '../components/Footer';
 import Section from '../components/Section';
-import Header from '../components/Header';
 
 
 function App() {
@@ -51,8 +50,6 @@ function App() {
   return (
     <>
       <Svg />
-
-      <Header />
 
       <main data-bs-theme="dark">
 

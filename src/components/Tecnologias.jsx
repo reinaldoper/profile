@@ -1,6 +1,5 @@
 import tecnologias from "../datas/tecnologias"
 import Svg from "../components/Svg"
-import Header from "../components/Header"
 import Section from "../components/Section"
 import Footer from "../components/Footer"
 
@@ -28,7 +27,6 @@ const Tecnologias = () => {
   return (
     <>
       <Svg />
-      <Header />
       <main data-bs-theme="dark">
 
         <Section />
