@@ -1,6 +1,5 @@
 import mercado from '../images/mercado.png';
 import musicas from '../images/musicas.png';
-import times from '../images/times.png';
 import login from '../images/tela-login.png';
 import partidas from '../images/partidas.png';
 import skambooks from '../images/skambooks.png';
@@ -39,12 +38,6 @@ const data = [
     title: 'Trybe Tunes',
     image: musicas,
     link: 'https://trybe-tunes.web.app/'
-  },
-  {
-    id: 3,
-    title: 'Times mundiais',
-    image: times,
-    link: 'https://github.com/reinaldoper/ligasDeTimes'
   },
   {
     id: 4,

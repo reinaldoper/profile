@@ -25,7 +25,10 @@ const Section = () => {
           <div className="p-4 border rounded-3 mb-4">
             <ul className="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style={estilo}>
               <li className="nav-item" role="presentation">
-                <Link to='/' className={`nav-link rounded-5 ${locals === '/'? 'active': ''}`} id="home-tab2" data-bs-toggle="tab" type="button" role="tab">React</Link>
+                <Link to='/' className={`nav-link rounded-5 ${locals === '/'? 'active': ''}`} id="home-tab2" data-bs-toggle="tab" type="button" role="tab">Home</Link>
+              </li>
+              <li className="nav-item" role="presentation">
+                <Link to='/react' className={`nav-link rounded-5 ${locals === '/react'? 'active': ''}`} id="home-tab2" data-bs-toggle="tab" type="button" role="tab">React</Link>
               </li>
               <li className="nav-item" role="presentation">
                 <Link to='/tech' className={`nav-link rounded-5 ${locals === '/tech'? 'active': ''}`} id="profile-tab2" data-bs-toggle="tab" type="button" role="tab">Tech</Link>
