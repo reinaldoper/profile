@@ -5,16 +5,25 @@
   -moz-user-select: none;
   user-select: none;
 }
-/* .container{
+.container-footer{
   display: flex;
-  max-width: 80%;
-  flex-wrap: wrap;
-} */
-/* .card{
-  display: flex;
-  max-width: 20%;
-  max-height: 20%;
-} */
+  margin: auto;
+}
+
+.container-footer > img{
+  width: 10rem;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.container-footer > p{
+  width: 10rem;
+  margin: auto;
+  color: aliceblue;
+}
+.footer{
+  background: -webkit-linear-gradient(left, #4a4545, #1f1f21);
+}
 
 .render{
   display: flex;
