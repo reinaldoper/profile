@@ -16,6 +16,16 @@
   border-radius: 10px;
 }
 
+.contentStyle{
+  border-radius: '5px';
+  height: '260px';
+  color: '#fff';
+  line-height: '160px';
+  text-align: 'center';
+  background: '#364d79';
+}
+
+
 .container-footer > p{
   width: 10rem;
   margin: auto;
