@@ -40,7 +40,7 @@ const Carrosel = () => {
     return () => {
       mediaQuery.removeEventListener('change', handleMediaQueryChange);
     };
-  }, [contentStyle]);
+  }, []);
 
   const dataProject = data.map(i => (
     <div key={i.id}>

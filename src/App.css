@@ -42,6 +42,19 @@
   margin: auto;
 }
 
+@media screen and (max-width: 750px) {
+  .container-footer > p{
+    width: 0.5rem;
+    margin: auto;
+    color: aliceblue;
+    font-size: small;
+  }
+  .container-footer > img{
+    width: 6.5rem;
+    margin: auto;
+  }
+}
+
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
