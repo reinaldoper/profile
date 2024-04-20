@@ -19,7 +19,7 @@ const Section = () => {
     <section className="py-5 text-center container">
       <div className="row py-lg-5">
         <div className="col-lg-6 col-md-8 mx-auto">
-          <h1 className="fw-light">This is my page, some of my projects.</h1>
+          <h1 className="fw-light text-body-secondary">This is my page, some of my projects.</h1>
           <p className="lead text-body-secondary">Navigate between the pages and see more of my projects.</p>
           
           <div className="p-4 border rounded-3 mb-4">
