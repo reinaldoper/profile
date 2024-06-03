@@ -25,6 +25,7 @@ import delivery from '../images/delivery.png';
 import school from '../images/school.png';
 import movies from '../images/movies.png';
 import dev from '../images/dev.png';
+import telnet from '../images/telnet.png';
 
 const data = [
   {
@@ -188,6 +189,12 @@ const data = [
     title: 'Dev prática',
     image: dev,
     link: 'https://dev-na-pratica-01-ten.vercel.app/'
+  },
+  {
+    id: 29,
+    title: 'Monitoramento Agraria',
+    image: telnet,
+    link: 'https://github.com/reinaldoper/agraria-monitoring'
   }
 ]
 
