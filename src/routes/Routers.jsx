@@ -4,6 +4,7 @@ import App from "../pages/App"
 import Tech from "../pages/Tech"
 import Movies from "../pages/Movies"
 import Main from "../pages/Main"
+import Responsive from "../pages/Responsive"
 
 const Routers = () => {
   return (
@@ -14,6 +15,7 @@ const Routers = () => {
         <Route path="/angular" element={<Angular />} />
         <Route path="/tech" element={<Tech />} />
         <Route path="/movie" element={<Movies />} />
+        <Route path="/responsive" element={<Responsive />} />
       </Routes>
     </>
   )

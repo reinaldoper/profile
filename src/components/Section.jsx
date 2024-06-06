@@ -39,6 +39,9 @@ const Section = () => {
               <li className="nav-item" role="presentation">
                 <Link to='/movie' className={`nav-link rounded-5 ${locals === '/movie'? 'active': ''}`} id="contact-tab2" data-bs-toggle="tab" type="button" role="tab">Videos</Link>
               </li>
+              <li className="nav-item" role="presentation">
+                <Link to='/responsive' className={`nav-link rounded-5 ${locals === '/responsive'? 'active': ''}`} id="contact-tab2" data-bs-toggle="tab" type="button" role="tab">Mobile</Link>
+              </li>
             </ul>
           </div>
           
