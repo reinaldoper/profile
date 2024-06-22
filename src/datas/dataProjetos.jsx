@@ -26,6 +26,7 @@ import school from '../images/school.png';
 import movies from '../images/movies.png';
 import dev from '../images/dev.png';
 import telnet from '../images/telnet.png';
+import orkut  from '../images/orkut_.png';
 
 const data = [
   {
@@ -195,6 +196,12 @@ const data = [
     title: 'Monitoramento Agraria',
     image: telnet,
     link: 'https://github.com/reinaldoper/agraria-monitoring'
+  },
+  {
+    id: 30,
+    title: 'Orkut',
+    image: orkut,
+    link: 'https://github.com/reinaldoper/orkut'
   }
 ]
 
